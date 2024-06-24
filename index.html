@@ -14,7 +14,7 @@
 
 <body>
     <header class="navbar zonepadding opacity">
-        <a class="navbar-logo" href="">
+        <a class="navbar-logo" href="./index.html">
             <svg class="navlogo" width="93" height="52" viewBox="0 0 93 52" fill="none"
                 xmlns="http://www.w3.org/2000/svg">
                 <path
@@ -26,7 +26,7 @@
             </svg>
         </a>
         <div class="navbar-links">
-            <a class="navbtn link btn" href="/projects.html">Projets</a>
+            <a class="navbtn link btn" href="./projects.html">Projets</a>
             <a class="navbtn link btn" href="">À propos</a>
             <a class="navcta cta btn" href="#mecontacter"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <rect x="2" y="4" width="20" height="16" rx="5" stroke="#FAF7F5" stroke-width="1.5"/>
@@ -132,18 +132,18 @@
     </section>
     <section class="zonecontact" id="mecontacter">
         <h3 class="titrecontact">Me contacter</h3>
-        <div class="contactform">
+        <div class="contactform" target="_blank" action="https://formsubmit.co/meneboo.vick@email.com" method="POST">
             <div class="idform">
-                <input type="nom" class="from btn" placeholder="Nom" name="nom" id="nom" required>
-                <input type="prenom" class="from btn" placeholder="Prénom" name="prenom" id="prenom" required>
+                <input type="nom" class="from btn" placeholder="Nom" name="nom" required>
+                <input type="prenom" class="from btn" placeholder="Prénom" name="prenom" required>
             </div>
             <input type="email" class="from btn" placeholder="Email" name="email" id="email" required>
-            <textarea class="from btn message" placeholder="Message" name="message" id="message" required></textarea>
+            <textarea class="from btn message" placeholder="Message" name="message" required></textarea>
             <div class="RGPDbox">
-                <input class="checkbox" type="checkbox" name="RGPD" id="RGPD" />
+                <input class="checkbox" type="checkbox" name="RGPD" required />
                 <label for="RGPD" class="RGPD">J'accepte que Veekee utilise mes données personnelles</label>
             </div>
-            <a class="contactcta cta btn" href="">Envoyer un message</a>
+            <a type="submit" class="contactcta cta btn" href="">Envoyer un message</a>
         </div>
     </section>
 
