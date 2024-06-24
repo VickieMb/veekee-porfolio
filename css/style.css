@@ -371,13 +371,13 @@ h3{
 
 .projetslist{
   display: flex;
-  gap: 3rem;
+  gap: 2.5rem;
   flex-wrap: wrap;
-  justify-content: center;
+  /* justify-content: center; */
 }
 
 .projet{
-  background-image: url('/assets/img/AdobeStock_218537527.jpeg');
+  background-image: url('../assets/img/AdobeStock_218537527.jpeg');
   background-size: cover;
   border-radius: 20px;
 }
@@ -391,12 +391,12 @@ h3{
   align-items: center;
   justify-content: end;
   border-radius: 20px;
-  transition: 3s;
+  /* transition: 3s; */
 }
 
 .backgroundgradient:hover{
   background: linear-gradient(180deg, rgba(58,85,56,0) 40%, rgba(58,85,56,1) 95%);
-  transition: 3s;
+  /* transition: 3s; */
 }
 
 .projettext{
