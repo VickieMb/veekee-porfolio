@@ -137,7 +137,7 @@ h3{
 }
 
 .hero{
-  background-image: url('../assets/img/AdobeStock_218537527.jpeg');
+  background-image: url('../assets/img/AdobeStock_218537527.webp');
   background-size: cover;
   background-position: center;
   height: 54em;
@@ -206,7 +206,7 @@ h3{
 }
 
 .background1{
-  background-image: url('../assets/img/AdobeStock_218537527.jpeg');
+  background-image: url('../assets/img/AdobeStock_218537527.webp');
   background-size: cover;
 }
 .listerole{
@@ -334,18 +334,6 @@ h3{
   gap: 0.5rem;
 }
 
-@media screen and (max-width : 700px){
-  .zonepresentation{
-    flex-wrap: wrap;
-  }
-
-  .idform{
-    display: flex;
-    gap: 0rem;
-    flex-wrap: wrap;
-  }
-}
-
 /* PAGE PROJETS */
 
 .zoneprojets{
@@ -373,11 +361,10 @@ h3{
   display: flex;
   gap: 2.5rem;
   flex-wrap: wrap;
-  /* justify-content: center; */
 }
 
 .projet{
-  background-image: url('../assets/img/AdobeStock_218537527.jpeg');
+  background-image: url('../assets/img/AdobeStock_218537527.webp');
   background-size: cover;
   border-radius: 20px;
 }
@@ -417,4 +404,21 @@ h3{
 
 .backgroundgradient:hover .btnprojet{
   display: block;
+}
+
+
+@media screen and (max-width : 700px){
+  .zonepresentation{
+    flex-wrap: wrap;
+  }
+
+  .idform{
+    display: flex;
+    gap: 0rem;
+    flex-wrap: wrap;
+  }
+
+  .projetslist{
+  justify-content: center;
+  }
 }
